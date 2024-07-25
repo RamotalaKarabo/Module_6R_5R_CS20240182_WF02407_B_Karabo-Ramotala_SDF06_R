@@ -62,6 +62,9 @@ header .container{
     justify-content:space-between;
     align-items:center;
 }
+.profile-user-settings button:hover{
+    cursor:pointer;
+}
 
 .profile-stats ul{
     display:flex;
@@ -150,6 +153,7 @@ img {
     background:rgba(0,0,0,0.4);
     color:white;
     transition:opacity .5s ease ;
+    cursor:pointer;
 }
 
 li[class*="comment"],li[class*="like"],fa,fa>i{
